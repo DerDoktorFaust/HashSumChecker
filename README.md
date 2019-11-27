@@ -3,6 +3,7 @@
 Planned Enhancements:
 1 - Ensure better error checking if not all information is provided by user to compute hash sums
 2 - Allow user to drag and drop a hash sum to compare the file to
+3 - Compute hashsums natively rather than through console commands (thus ensuring future and past compatibility)
 
 
 Version 1.0
