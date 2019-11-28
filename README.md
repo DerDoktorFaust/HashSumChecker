@@ -1,6 +1,7 @@
 # HashSumChecker
 
 Version 2.0
+
 Rather than computing MD5, SHA1, and SHA 256 hashes with console commands, the hashlib module is used to compute the file directly.
 
 User can now drag and drop a highlighted hash code into its respective field rather than copying and pasting (though this still works of course)
