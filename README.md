@@ -1,9 +1,11 @@
 # HashSumChecker
 
-Planned Enhancements:
-1 - Ensure better error checking if not all information is provided by user to compute hash sums
-2 - Allow user to drag and drop a hash sum to compare the file to
-3 - Compute hashsums natively rather than through console commands (thus ensuring future and past compatibility)
+Version 2.0
+Rather than computing MD5, SHA1, and SHA 256 hashes with console commands, the hashlib module is used to compute the file directly.
+
+User can now drag and drop a highlighted hash code into its respective field rather than copying and pasting (though this still works of course)
+
+Error checking has been revamped and now if any field is left blank or if the file cannot be found, an exception is thrown and the program continues to function.
 
 
 Version 1.0
